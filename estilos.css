@@ -1,0 +1,46 @@
+.main-container{
+    background-color: hsl(244, 38%, 16%);
+    color:white;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.palabra{
+    color: hsl(277, 64%, 61%);
+    
+}   
+.cuerpo{
+    background-color:  hsl(233, 47%, 7%);
+    
+}
+.h1{
+    margin-bottom: 20px;
+}
+.div{
+    justify-content: space-between;
+}
+img {
+    width: 500px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    filter: hue-rotate(277deg) saturate(150%);
+  }
+.main{
+    margin-top: 150px;
+} 
+
+.overlay-parent {
+    position: relative;
+}
+.overlay::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(277, 64%, 61%);
+    opacity: 0.5;
+}
+
+
+
