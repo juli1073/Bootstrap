@@ -3,6 +3,7 @@
     color:white;
     padding-left: 40px;
     padding-top: 40px;
+    order:1;
 
 }
 .palabra{
@@ -31,6 +32,20 @@ img {
 
 .overlay-parent {
     position: relative;
+    order:2;
+}
+@media(max-width:768px){
+    .main{
+        flex-direction: column;
+
+    }
+    .main-container{
+        order:2;
+    }
+    .overlay-parent{
+        order:1;
+    }
+
 }
 .overlay::after {
     content: "";
